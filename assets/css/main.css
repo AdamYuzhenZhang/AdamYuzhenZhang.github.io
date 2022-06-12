@@ -3513,6 +3513,26 @@ body.is-project-visible #project {
 			}
 
 		}
+		.iframe-container_Large{
+			position: relative;
+			width: 100%;
+			padding-bottom: 100%;
+			height: 0;
+		}
+		.iframe-container_Large iframe{
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.iframe-container_Large embed{
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 
 		.iframe-container{
 			position: relative;
@@ -3534,3 +3554,4 @@ body.is-project-visible #project {
 			width: 100%;
 			height: 100%;
 		}
+		

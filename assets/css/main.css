@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900");
 
 /*
 	Phantom by HTML5 UP
@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h2, h3, h4, h5, h6, hhh, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -163,7 +163,9 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		font-size: 1.1em;
+		font-weight: 400;
+		margin: 0 0 1em 0;
 	}
 
 	h1 {
@@ -195,21 +197,31 @@ input, select, textarea {
 
 		}
 
+hhh {
+	font-weight: 500;
+	line-height: 1.5;
+	margin: 0 0 0.5em 0;
+
+}
+
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.3em;
 	}
 
-		h2 a, h3 a, h4 a, h5 a, h6 a {
+		hhh a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 		}
 
-	h2 {
-		font-size: 1.1em;
+	hhh {
+		font-size: 2em;
 	}
+h2 {
+	font-size: 1.2em;
+}
 
 	h3 {
 		font-size: 1em;
@@ -229,7 +241,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+		hhh br, h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
 		}
 
@@ -237,7 +249,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		h2 {
+		hhh, h2 {
 			font-size: 1em;
 		}
 

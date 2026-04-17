@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+    Phantom by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>AliceSense Privacy Policy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <span class="symbol"><img src="images/Logo.png" alt="" /></span><span class="title">Yuzhen</span>
+                </a>
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Portfolio</a></li>
+                        <li><a href="contact.html">About</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                <h1>AliceSense Privacy Policy</h1>
+                <p><strong>Effective Date:</strong> April 16, 2026</p>
+
+                <p>
+                    This Privacy Policy explains how AliceSense ("the App") handles user data. AliceSense is an
+                    independent art and research project that captures environmental signals and can develop them into
+                    images using OpenAI APIs.
+                </p>
+
+                <h2>Summary</h2>
+                <ul>
+                    <li><strong>No account required.</strong> We do not ask for your name, email, or contact details.</li>
+                    <li><strong>No advertising or tracking.</strong> We do not use ad networks, analytics SDKs, or cross-app tracking.</li>
+                    <li><strong>Captures stay local unless you choose AI development.</strong> Sensor Cards, images, edge maps, audio clips, and environmental readings remain on your device unless you explicitly ask the app to develop a card with AI.</li>
+                    <li><strong>Your own OpenAI API key stays local.</strong> If you enter a personal OpenAI API key, it is stored only on your device in Apple Keychain.</li>
+                    <li><strong>The managed free tier is limited and content-minimizing.</strong> If you use the built-in free development option, requests pass through our Cloudflare Worker only to enforce a daily quota and forward the request to OpenAI. It is designed not to store prompts, images, audio clips, or other raw capture contents.</li>
+                </ul>
+
+                <h2>Information We Collect</h2>
+                <p>
+                    AliceSense does <strong>not</strong> require an account and does not intentionally collect personal
+                    information such as your name, email address, contacts, or advertising identifiers.
+                </p>
+                <ul>
+                    <li>We do not maintain user accounts or profiles.</li>
+                    <li>We do not sell personal information.</li>
+                    <li>We do not track you across apps or websites.</li>
+                </ul>
+
+                <h2>What Stays On Your Device</h2>
+                <p>
+                    By default, AliceSense stores your work locally on your device. This includes undeveloped Sensor
+                    Cards, developed images, preview assets, audio clips, prompt drafts, and environmental readings
+                    captured for a card.
+                </p>
+                <ul>
+                    <li>Captured images and low-detail visual reference assets remain local until you choose to use AI development.</li>
+                    <li>Environmental inputs such as sound level, ambient audio, motion, time, weather context, place label, and similar capture metadata remain local unless needed for an AI request you initiate.</li>
+                    <li>Your selected settings and app state remain local on device.</li>
+                    <li>Your personal OpenAI API key, if added, is stored locally in Apple Keychain and is not uploaded to us.</li>
+                </ul>
+
+                <h2>When Data Is Sent Off Device</h2>
+                <p>
+                    AliceSense only sends capture-related data off device when you explicitly choose to use AI features,
+                    such as developing a Sensor Card or requesting AI interpretation of an ambient audio clip.
+                </p>
+                <ul>
+                    <li>The app may send the generated prompt, selected capture metadata, low-detail visual scaffold images such as edge maps, and captured ambient audio clips needed to fulfill your request.</li>
+                    <li>If you use your own OpenAI API key, the request is sent directly from the app to OpenAI.</li>
+                    <li>If you use the app's managed free development mode, the request is routed through our Cloudflare Worker and then forwarded to OpenAI.</li>
+                    <li>We do not use your captures to build advertising profiles or sell user data.</li>
+                </ul>
+
+                <h2>Managed Free Tier and Cloudflare Worker</h2>
+                <p>
+                    AliceSense includes an optional managed free development mode. This service is implemented with a
+                    Cloudflare Worker that acts as a lightweight proxy to OpenAI and enforces a limited daily quota per
+                    app install.
+                </p>
+                <p>
+                    The managed service is designed to avoid storing capture content. It keeps only the minimum
+                    operational data needed to run the quota system and basic aggregate service metrics.
+                </p>
+                <ul>
+                    <li>A locally generated client identifier may be used to track remaining free developments for the day.</li>
+                    <li>The service may store quota records tied to card development events so repeated upstream calls for the same card only count once.</li>
+                    <li>The service may keep aggregate operational metrics such as daily request counts, daily development counts, quota blocks, upstream errors, and daily unique install counts derived from a one-way hash.</li>
+                    <li>The service is designed not to store prompts, images, audio clips, transcripts, raw client identifiers, or other raw capture payloads.</li>
+                </ul>
+
+                <h2>OpenAI</h2>
+                <p>
+                    AliceSense uses OpenAI APIs to interpret certain capture inputs and generate developed images when
+                    you choose AI development. OpenAI processes the request data needed to provide that service. Your use
+                    of OpenAI through AliceSense is also subject to OpenAI's own policies and terms.
+                </p>
+
+                <h2>Device Permissions and Sensors</h2>
+                <p>
+                    AliceSense may request access to the camera, microphone, and location depending on which features
+                    and capture inputs you enable.
+                </p>
+                <ul>
+                    <li><strong>Camera</strong> is used to capture framing and low-detail visual structure.</li>
+                    <li><strong>Microphone</strong> is used for sound level measurement and optional ambient audio clips.</li>
+                    <li><strong>Location</strong> is used for optional place labels, address context, coordinates, altitude, and weather lookups.</li>
+                </ul>
+                <p>
+                    You can change permissions at any time in iOS Settings and can also toggle specific capture inputs
+                    inside the app.
+                </p>
+
+                <h2>Third-Party Services</h2>
+                <p>
+                    AliceSense uses only a small set of third-party services needed to provide its core functionality:
+                </p>
+                <ul>
+                    <li><strong>OpenAI</strong> for AI development and audio interpretation.</li>
+                    <li><strong>Cloudflare Worker</strong> for the optional built-in free development tier and quota enforcement.</li>
+                    <li><strong>Weather providers</strong> when weather capture is enabled and the app requests weather context for your location.</li>
+                </ul>
+
+                <h2>Sharing and Saving</h2>
+                <p>
+                    If you save an image to Photos or share an image elsewhere, that action is initiated by you and
+                    handled through Apple's system interfaces. AliceSense does not control where you share exported
+                    images after you choose to do so.
+                </p>
+
+                <h2>Children's Privacy</h2>
+                <p>
+                    AliceSense is not directed to children under 13, and we do not knowingly collect personal
+                    information from children.
+                </p>
+
+                <h2>Changes to This Policy</h2>
+                <p>
+                    We may update this Privacy Policy from time to time. Any changes will be posted on this page with an
+                    updated effective date. If AliceSense changes its data practices in a material way, this page will be
+                    revised accordingly.
+                </p>
+
+                <h2>Contact Us</h2>
+                <p>
+                    If you have any questions about this Privacy Policy or AliceSense, you can reach us via:
+                </p>
+                <ul>
+                    <li>📷 Instagram: <a href="https://www.instagram.com/ae.studio__" target="_blank">@ae.studio__</a></li>
+                    <li>📕 小红书 / Rednote: <a href="https://xhslink.com/m/2oQ6UxO1aoJ" target="_blank">@AE.Studio</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
